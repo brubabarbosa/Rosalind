@@ -2,10 +2,8 @@ package rosalind.string.algorithms;
 
 public class DNA {
 
- protected String dnaInput;
+ DNA(){
 
- DNA(String dnaInput){
-     this.dnaInput = dnaInput;
  }
 
  String countingNucleotides(String sequence){
@@ -24,6 +22,6 @@ public class DNA {
          }
      }
 
-     return countA + "" + countC + " " + countG +" " + countT;
+     return countA + " " + countC + " " + countG +" " + countT;
  }
 }
